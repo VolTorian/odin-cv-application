@@ -1,6 +1,6 @@
 function HandleInfo({info, description}) {
     if (info) {
-        return <span>{description}: {info}&nbsp;&nbsp;&nbsp;</span>
+        return <span>&nbsp;{description}: {info}&nbsp;</span>
     }
 }
 
