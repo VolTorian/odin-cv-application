@@ -12,7 +12,7 @@ function SectionPersonal({firstName, lastName, phone, email, linkedIn, location}
             <div>
                 <HandleInfo info={phone} description="Phone" />
                 <HandleInfo info={email} description="Email" />
-                <HandleInfo info={linkedIn} description="Location" />
+                <HandleInfo info={linkedIn} description="Linked In" />
                 <HandleInfo info={location} description="Location" />
             </div>
         </div>
